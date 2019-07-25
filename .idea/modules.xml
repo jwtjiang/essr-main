@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/essr-amq/essr-amq.iml" filepath="$PROJECT_DIR$/essr-amq/essr-amq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essr-eley/essr-eley.iml" filepath="$PROJECT_DIR$/essr-eley/essr-eley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essr-eruka/essr-eruka.iml" filepath="$PROJECT_DIR$/essr-eruka/essr-eruka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essr-main.iml" filepath="$PROJECT_DIR$/essr-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essr-zuul/essr-zuul.iml" filepath="$PROJECT_DIR$/essr-zuul/essr-zuul.iml" />
+    </modules>
+  </component>
+</project>
