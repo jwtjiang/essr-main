@@ -12,6 +12,7 @@
         <module>essr-eruka</module>
         <module>essr-zuul</module>
         <module>essr-amq</module>
+        <module>essr-scheduled</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

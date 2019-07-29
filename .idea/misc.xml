@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/essr-eruka/pom.xml" />
         <option value="$PROJECT_DIR$/essr-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/essr-amq/pom.xml" />
+        <option value="$PROJECT_DIR$/essr-scheduled/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

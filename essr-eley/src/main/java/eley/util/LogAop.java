@@ -14,8 +14,8 @@ import org.springframework.stereotype.Component;
  */
 @Aspect
 @Component
-public class EleyLogAop {
-    private static final Logger log = LoggerFactory.getLogger(EleyLogAop.class);
+public class LogAop {
+    private static final Logger log = LoggerFactory.getLogger(LogAop.class);
 
     private static final String EXECUTION = "execution(* eley.controller..*.*(..))";
 

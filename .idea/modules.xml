@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/essr-eley/essr-eley.iml" filepath="$PROJECT_DIR$/essr-eley/essr-eley.iml" />
       <module fileurl="file://$PROJECT_DIR$/essr-eruka/essr-eruka.iml" filepath="$PROJECT_DIR$/essr-eruka/essr-eruka.iml" />
       <module fileurl="file://$PROJECT_DIR$/essr-main.iml" filepath="$PROJECT_DIR$/essr-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essr-scheduled/essr-scheduled.iml" filepath="$PROJECT_DIR$/essr-scheduled/essr-scheduled.iml" />
       <module fileurl="file://$PROJECT_DIR$/essr-zuul/essr-zuul.iml" filepath="$PROJECT_DIR$/essr-zuul/essr-zuul.iml" />
     </modules>
   </component>
