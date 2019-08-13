@@ -10,9 +10,21 @@ import java.util.Map;
 /**
  * Created by Administrator on 2019/7/22.
  */
-@FeignClient(value = "essr-amq",fallback = SendMessageImp.class)
+//@FeignClient(value = "essr-amq",fallback = SendMessageImp.class)
 public interface SendMessage {
 
-    @RequestMapping(value = "/amq/addMessage",method = RequestMethod.POST)
-    public void  addMessage(Map map);
+//    @RequestMapping(value = "/amq/addMessage",method = RequestMethod.POST)
+//    void  addMessage(Map map);
+
+    /**
+     *
+     * @param destination 消息类型
+     */
+    void sendOneTypeMessage(String destination ,Object obj);
+
+    /**
+     *
+     * @param obj 消息内容
+     */
+    void sendTwoTypeMessage(Object obj);
 }

@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 public class LogAop {
     private static final Logger log = LoggerFactory.getLogger(LogAop.class);
 
-    private static final String EXECUTION = "execution(* eley.controller..*.*(..))";
+    private static final String EXECUTION = "execution(* scheduled.controller..*.*(..))";
 
     ThreadLocal<Long> startTime = new ThreadLocal<>();
 

@@ -1,8 +1,6 @@
 package eley.service.imp;
 
 import eley.dao.GetRunInfoDao;
-import eley.dao.sysUserMapper;
-import eley.model.sysUser;
 import eley.service.GetRunInfoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,15 +19,15 @@ public class GetRunInfoServiceImp implements GetRunInfoService {
     @Autowired
     GetRunInfoDao getRunInfodao;
 
-    @Autowired
-    sysUserMapper dao;
+    //@Autowired
+    //sysUserMapper dao;
 
     @Override
     public List<Map> get() {
         log.info(getRunInfodao.get()+"");
-        sysUser user = new sysUser(String.valueOf(new Date().getTime()).substring(String.valueOf(new Date().getTime()).length()-8,String.valueOf(new Date().getTime()).length()),"张康","20");
-        log.info(user+"-----------------------------------");
-        dao.insert(user);
+//        sysUser user = new sysUser(String.valueOf(new Date().getTime()).substring(String.valueOf(new Date().getTime()).length()-8,String.valueOf(new Date().getTime()).length()),"张康","20");
+//        log.info(user+"-----------------------------------");
+//        dao.insert(user);
         List list = new ArrayList();
         list.add(getRunInfodao.get());
         return list;

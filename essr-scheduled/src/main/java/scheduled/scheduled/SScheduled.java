@@ -18,7 +18,8 @@ public class SScheduled {
     @Autowired
     WebsocketServer websocketServer;
 
-    @Scheduled(cron = "0 */1 * * * ?")
+    //定时5分钟
+    @Scheduled(cron = "0 */5 * * * ?")
     public void first() throws IOException{
         log.info("-----------------五分钟间隔开始执行定时任务---------------------------");
         websocketServer.sendAll("定时任务信息");
